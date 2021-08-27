@@ -1,0 +1,63 @@
+0.0 - Documentação
+1.0 - Vercionador
+1.1 - Vercionamento local
+1.2 - DCVS X CVCS
+1.3 - Como Git funciona
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Documentação:
+
+- CVCS / DVCS:
+https://content.intland.com/blog/sdlc/the-needs-that-version-control-systems-serve
+
+- Git:
+https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1.0 - Vercionador:
+
+  "Git é um vercionador de código". É mais do que comum
+que esta seja a primeira resposta a se dar para um curio-
+so que não conheça a tal "gloriosa ferramenta". A pergunta
+que se segue, "E o que é um vercionador?", se torna quase
+tão comum quanto a nossa primeira resposta, não é? 
+  Sistemas de vercionamento nos permitem registrar as mu-
+danças que vamos fazendo em um arquivo, facilitando a re-
+greção destas sempre que os resultados não nos agradarem.
+Git não foi o primeiro sistema de versionamento de códi-
+gos a ser criada, mais sem sombra de dúvidas foi a mais
+eficiênte já desenvolvida. Mais o que diferencia o git
+dos demais? Falaremos disso em breve.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+1.1 - Vercionamento local:
+
+   Isso significa dizer que quase todas as operações que 
+o git executa funcionam na sua maquina, sem a necessidade
+de uma conexão com a internet. Ou seja, você consegue ir
+trabalhando em um sistema durante uma viagem de avião e 
+ir versionando seu código, tendo acesso as mudanças de 
+versão do seu código sem ter a necessidade de subir suas
+mudanças para um servidor.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+1.2 - DCVS X CVCS:
+
+° Centralized Version Control System (CVCS):
+
+Benefícios:
+
+   - Fácil de configurar
+   - Prove transparência
+   - Permite o controle do fluxo de trabalho
+
+Malefícios:
+
+   - Se o server cair, não se pode salvar as alterações
+   - Commits são lentos
+   - Mudanças não solicitadas podem arruinar seu trabalho
+   - Historico pode ser perdido caso o database central
+     venha a estar corrompido.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
